@@ -1,9 +1,17 @@
 {
-  "name": "testando_backend",
+  "name": "teste-backend",
   "version": "1.0.0",
   "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js"
   },
-  ...
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "sqlite3": "^5.1.7"
+  }
 }
